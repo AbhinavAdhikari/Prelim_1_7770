@@ -1,4 +1,4 @@
-# Prelim_1_7770
+# Prelim_1_7770: Abhinav Adhikari
 
 ## Part 1: Scanned PDF
 
