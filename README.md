@@ -14,7 +14,7 @@
 	
 There are several files pertinent to this part of the problem. 
 
-*.json files (* = 1 to 13) are edited json files. In these files, each parameter is updated to a value 20% larger than its original value. For example, in 1.json, parameter 1 is increased by 20% with all other parameters held constant. 
+`*.json files` (`*` = 1 to 13) are edited json files. In these files, each parameter is updated to a value 20% larger than its original value. For example, in 1.json, parameter 1 is increased by 20% with all other parameters held constant. 
 
 The list of parameters is in file `percentage_change.pdf`. 
 
