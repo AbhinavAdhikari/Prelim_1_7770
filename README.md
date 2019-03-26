@@ -30,7 +30,7 @@ Run files: `time_averaged_sensitivity_phase_1.jl`, `time_averaged_sensitivity_ph
 
 `SVD.jl`: This file performs SVD on the 3 time averaged sensitivity arrays calculated in the 3 run files above in part 2b. The rankings and explanation are also given in this file.
 
-## Part 3
+## Part 3:
 
 ### Part 3a
 
