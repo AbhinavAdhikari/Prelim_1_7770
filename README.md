@@ -1,7 +1,7 @@
 # Prelim_1_7770: Abhinav Adhikari
 
-## Part 1: Scanned PDF
-
+## Part 1
+`Part 1.pdf` file contains the writeup
 ## Part 2:
 
 ### Part 2a
