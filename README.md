@@ -37,7 +37,7 @@ The `ICIT1.json` file holds the original parameters and is also required.
 
 ### Part 3a
 
-**Run file:** `stoich.jl`: This file has the stoichiometric matrix according to table 1 of Allen and Palsson. It is also the main run file. It solves for the FBA problem and plots the protein levels versus different inducer concentrations.
+**Run file:** `stoich.jl`: This file has the stoichiometric matrix according to table 1 of *Allen and Palsson*. It is also the main run file. It solves for the FBA problem and plots the protein levels versus different inducer concentrations.
 
 `tx_tl_rates.jl`: This file is used to calculate the rate of transcription and translation. These rates will act as bounds for the fluxes.
 
