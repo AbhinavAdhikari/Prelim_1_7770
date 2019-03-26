@@ -6,6 +6,8 @@
 
 ### Part 2a
 
+I used the `ICT1.json` file provided by Dr. Varner that had the required control functions, parameters as well as values for the growth constants and the rates. 
+
 2a.jl: This file uses the `ICT1.json` file provided by Dr. Varner. Output is a plot that simulates the response of P1, P2 and P3 versus change in initiator concentration.
 	
 ### Part 2b
@@ -25,6 +27,7 @@ Run files: `time_averaged_sensitivity_phase_1.jl`, `time_averaged_sensitivity_ph
 `time_averaged_sensitivity_phase_2.jl`: This file is used to calculate the time averaged sensitivity matrix for early phase 1, i.e. from time unit 71 to 90- an interval of 20 mins.
 
 `time_averaged_sensitivity_phase_2_late.jl`: This file is used to calculate the time averaged sensitivity matrix for early phase 1, i.e. from time unit 331 to 350- an interval of 20 mins.
+
 
 ### Part 2c
 
