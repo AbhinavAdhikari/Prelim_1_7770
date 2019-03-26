@@ -6,9 +6,9 @@
 
 ### Part 2a
 
-I used the `ICT1.json` file provided by Dr. Varner that had the required control functions, parameters as well as values for the growth constants and the rates. 
+**Run file:** `2a.jl`: This file uses the `ICT1.json` file provided by Dr. Varner. Output is a plot that simulates the response of P1, P2 and P3 versus change in initiator concentration. 
 
-2a.jl: This file uses the `ICT1.json` file provided by Dr. Varner. Output is a plot that simulates the response of P1, P2 and P3 versus change in initiator concentration.
+`ICT1.json` file has the required control functions, parameters as well as values for the growth constants and the rates. 
 	
 ### Part 2b
 	
@@ -20,7 +20,7 @@ The list of parameters is in file `percentage_change.pdf`.
 
 The `ICIT1.json` file holds the original parameters and is also required.
 
-Run files: `time_averaged_sensitivity_phase_1.jl`, `time_averaged_sensitivity_phase_2.jl`, `time_averaged_sensitivity_phase_2_late.jl` solve for the time-averaged sensitivity matrices for each of the phases. 
+**Run files:** `time_averaged_sensitivity_phase_1.jl`, `time_averaged_sensitivity_phase_2.jl`, `time_averaged_sensitivity_phase_2_late.jl` solve for the time-averaged sensitivity matrices for each of the phases. 
 
 `time_averaged_sensitivity_phase_1.jl`: This file is used to calculate the time averaged sensitivity matrix for phase 1, i.e. from time unit 21 to 40- an interval of 20 mins.
 
@@ -37,7 +37,7 @@ Run files: `time_averaged_sensitivity_phase_1.jl`, `time_averaged_sensitivity_ph
 
 ### Part 3a
 
-`stoich.jl`: This file has the stoichiometric matrix according to table 1 of Allen and Palsson. It is also the main run file. It solves for the FBA problem and plots the protein levels versus different inducer concentrations.
+**Run file:** `stoich.jl`: This file has the stoichiometric matrix according to table 1 of Allen and Palsson. It is also the main run file. It solves for the FBA problem and plots the protein levels versus different inducer concentrations.
 
 `tx_tl_rates.jl`: This file is used to calculate the rate of transcription and translation. These rates will act as bounds for the fluxes.
 
